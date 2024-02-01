@@ -8,7 +8,7 @@ if (!isset($_SESSION["user_id"])) {
 $user_name = $_SESSION["user_name"];
 $user_id = $_SESSION["user_id"];
 
-//$mysqli = new mysqli("localhost", "root", "12345678", "library");
+$mysqli = new mysqli("localhost", "root", "12345678", "library");
 
 if ($mysqli->connect_error) {
     die("การเชื่อมต่อฐานข้อมูลล้มเหลว: " . $mysqli->connect_error);
