@@ -1,5 +1,5 @@
-<?php
-$mysqli = new mysqli("localhost", "root", "12345678", "library");
+//<?php
+//$mysqli = new mysqli("localhost", "root", "12345678", "library");
 
 if ($mysqli->connect_error) {
     die("การเชื่อมต่อฐานข้อมูลล้มเหลว: " . $mysqli->connect_error);
