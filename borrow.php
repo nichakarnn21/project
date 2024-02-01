@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $image_url = $_POST["image_url"];
 
     
-    $mysqli = new mysqli("localhost", "root", "12345678", "library");
+   // $mysqli = new mysqli("localhost", "root", "12345678", "library");
 
     if ($mysqli->connect_error) {
         die("การเชื่อมต่อฐานข้อมูลล้มเหลว: " . $mysqli->connect_error);
